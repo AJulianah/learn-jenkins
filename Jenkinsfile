@@ -1,7 +1,7 @@
 
 pipeline {
   agent { 
-  label 'agent-1'
+  any
   }
   stages {
  //   stage('install playwright') {
