@@ -8,10 +8,11 @@ pipeline {
   stages {
     stage('install playwright') {
       steps {
-        sh '''
-          npm i -D @playwright/test
-          npx playwright install
-        '''
+        echo 'This is running'
+        //sh '''
+          //npm i -D @playwright/test
+          //npx playwright install
+        //'''
       }
     }
     stage('help') {
