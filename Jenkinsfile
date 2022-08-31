@@ -9,10 +9,9 @@ pipeline {
     stage('install playwright') {
       steps {
         echo 'This is running'
-        sh -c '''
-        npm i -D @playwright/test
-        npx playwright install
-        '''
+        sh 'npm i -D @playwright/test'
+        
+        sh 'npx playwright install'
         
       }
     }
@@ -23,7 +22,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh -c '''
+        sh '''
           npx playwright test --list
           npx playwright test
         '''
