@@ -18,7 +18,7 @@ pipeline {
     }
     stage('help') {
       steps {
-        sh "px playwright test --help"      }
+        sh "npx playwright test --help"      }
     }
     stage('test') {
       steps {
