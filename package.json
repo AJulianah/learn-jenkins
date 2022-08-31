@@ -1,0 +1,21 @@
+{
+  "name": "jenkins_playwright_example",
+  "version": "1.0.0",
+  "description": "This a jenkins test thing I am doing to learn how to use playwright with jenkins. Also get is still being weird",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camthack13/Jenkins_playwright_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camthack13/Jenkins_playwright_example/issues"
+  },
+  "homepage": "https://github.com/Camthack13/Jenkins_playwright_example#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}
